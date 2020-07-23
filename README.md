@@ -1,3 +1,54 @@
+# Portfolio:
+## This is my development porfolio. the goal is to showcase my ability as a Software Engineer utilizing the following technologies:
+* React.js
+* JavaScript
+* AWS
+* HTML
+* CSS
+* Express.js
+* PostgresSQL
+* Bootstrap
+* React-Bootstrap
+
+### This website is built using, React, JS, & CSS. It is hosted on an AWS S3 bucket & has access to AWS PSQL Relational Database Server which contains information on my developemt projects.
+
+## I developed my portfoilio by doinf the follwing
+* [] npx Create-React
+* [] npm install react
+* [] npm install react
+* [] fixed index.js 
+* [] created our switch
+* []
+* []
+* []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
