@@ -5,6 +5,8 @@ class Projects extends Component {
 
 
     }
+
+
     render() {
         return(
             <div className="container">
@@ -13,7 +15,7 @@ class Projects extends Component {
                 <h3>Project 1</h3>
                 <h3>Project 1</h3>
                 <h3>Project 1</h3>
-                <h3>Project 1</h3>
+                <h3></h3>
             
             </div>
         )

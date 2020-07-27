@@ -6,6 +6,8 @@ import About from './Components/About';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import {Route, Switch} from 'react-router-dom';
+import Photos from './Components/Photos';
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
       <Route path="/"component={Home} exact/>
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
+      <Route path="/photos" component={Photos} />
       <Route component={Error} />
       </Switch>
      

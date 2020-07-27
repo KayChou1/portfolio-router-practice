@@ -18,9 +18,45 @@
 * [] npm install react
 * [] fixed index.js 
 * [] created our switch
-* []
-* []
-* []
+* [] added profile image asset.
+* [] create wireframe
+* [] navbar
+    * [] make navbar stick to top
+    * [] add github link
+    * [] change color
+    * [] change postion of links on navbar
+* [] homepage 
+    * [] home page photo
+    * [] home page text
+    * [] home page name 
+    * [] home page link/buttons
+        * [] projects
+        * [] about me
+        * [] photography
+        * [] LinkedIn
+        * [] Github
+* [] Projects
+    * []
+    * []
+    * []
+    * []
+* [] About Me
+    * []
+    * []
+    * []
+    * []
+* [] Resume
+    * []
+    * []
+    * []
+    * []
+* [] Photos
+    * []
+    * []
+    * []
+    * []
+
+
 
 
 
