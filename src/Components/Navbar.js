@@ -1,11 +1,12 @@
 import React from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import HeadShotPicture from '../Assets/kaya1.jpg';
 
 function NavBar(){
 
     return (
-        <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">Kayas Portfolio</Navbar.Brand>
+        <Navbar sticky="top" className="Navigation" collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar.Brand href="/">Kayas Portfolio <img src={HeadShotPicture} height="40px" alt="Headshot" ></img> </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
@@ -27,6 +28,7 @@ function NavBar(){
             <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="/Photo">Photos</Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/kayaa/"target="blank">LinkedIn</Nav.Link>
+            <Nav.Link href="https://github.com/KayChou1/"target="blank">Github</Nav.Link>
         
             </Nav>
         </Navbar.Collapse>

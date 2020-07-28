@@ -1,5 +1,6 @@
 import React from 'react';
 import HeadShotPicture from '../Assets/kaya1.jpg';
+import HeadShotPicture1 from '../Assets/kaya.png';
 
 function About(){
     return(
@@ -7,7 +8,8 @@ function About(){
             <p>
                 About Me!
             </p>
-            <img src={HeadShotPicture} alt="Headshot" ></img>
+            <img className="Headshot" src={HeadShotPicture} alt="Headshot" ></img>
+            <img className="Headshot" src={HeadShotPicture1} alt="Headshot" ></img>
         </>
     )
 
