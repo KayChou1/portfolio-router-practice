@@ -22,7 +22,7 @@ function NavBar(){
                 <NavDropdown.Item href="https://kaychou1.github.io/calculatorProject/"target="blank">Online Calculator</NavDropdown.Item>
                 <NavDropdown.Item href="https://kaychou1.github.io/IMDB-Movie-Fetch/"target="blank">Movie Fetch</NavDropdown.Item>
                 <NavDropdown.Item href="https://kaychou1.github.io/Lakai-sneaker-API/"target="blank">Sneaker API</NavDropdown.Item>
-                <NavDropdown.Item href="https://kaychou1.github.io/Movie-API/">Movie API</NavDropdown.Item>
+                <NavDropdown.Item href="https://kaychou1.github.io/OMDb-API/">Movie API</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
