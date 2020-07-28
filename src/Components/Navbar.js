@@ -1,12 +1,12 @@
 import React from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
-import HeadShotPicture from '../Assets/kaya1.jpg';
+import BrainPicture from '../Assets/brain1.gif';
 
 function NavBar(){
 
     return (
         <Navbar sticky="top" className="Navigation" collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">Kayas Portfolio <img src={HeadShotPicture} height="40px" alt="Headshot" ></img> </Navbar.Brand>
+            <Navbar.Brand href="/">Kayas Portfolio <img src={BrainPicture} height="40px" alt="BrainPicture" ></img> </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
@@ -22,7 +22,7 @@ function NavBar(){
                 <NavDropdown.Item href="https://kaychou1.github.io/calculatorProject/"target="blank">Online Calculator</NavDropdown.Item>
                 <NavDropdown.Item href="https://kaychou1.github.io/IMDB-Movie-Fetch/"target="blank">Movie Fetch</NavDropdown.Item>
                 <NavDropdown.Item href="https://kaychou1.github.io/Lakai-sneaker-API/"target="blank">Sneaker API</NavDropdown.Item>
-                <NavDropdown.Item href="https://kaychou1.github.io/Movie-API/">Separated link</NavDropdown.Item>
+                <NavDropdown.Item href="https://kaychou1.github.io/Movie-API/">Movie API</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
