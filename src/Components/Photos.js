@@ -1,5 +1,4 @@
 import React from 'react';
-import Headshot from '../Assets/kaya.png';
 
 function Photos(){
     return(
@@ -7,7 +6,49 @@ function Photos(){
             <p>
                 Photography!
             </p>
-            <img src={Headshot} alt="" ></img>
+
+            {/* <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+            <img className="" src="" alt="name of picture" ></img>
+          */}
+            
         </>
     )
 

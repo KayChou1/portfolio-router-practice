@@ -1,17 +1,22 @@
 import React from 'react';
 import logo from '../logo.svg';
+import {Button} from 'react-bootstrap'
 
 
 
 function Home(){
     return(
         <>
+        
+        
         <p>
-          Home Page
-          <img src="https://images.pexels.com/photos/1624076/pexels-photo-1624076.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="App-logo" alt="logo" />
+          Hello, I'm Kaya Chouprouta
+          Im a front-end web deveopler.
         </p>
-
-        <p>
+        <Button variant="light">View My Work</Button>
+        {/* <img src="https://photos.smugmug.com/Model-Agencies/MISC/Kara-ret/i-bgsQpzC/0/52b4e357/L/DSC_5492-L.jpg"height="300px" width="200px" alt="Headshot" className="App-logo" alt="logo" /> */}
+        
+        {/* <p>
           Home Page
           <img src={logo} className="App-logo" alt="logo" />
         </p>
@@ -52,27 +57,9 @@ function Home(){
         <p>
           Home Page
           <img src={logo} className="App-logo" alt="logo" />
-        </p>
+        </p> */}
 
-        <p>
-          Home Page
-          <img src={logo} className="App-logo" alt="logo" />
-        </p>
-        <p>
-          Home Page
-          <img src={logo} className="App-logo" alt="logo" />
-        </p>
-
-        <p>
-          Home Page
-          <img src={logo} className="App-logo" alt="logo" />
-        </p>
-
-        <p>
-          Home Page
-          <img src={logo} className="App-logo" alt="logo" />
-        </p>
-
+      
         </>
     )
 

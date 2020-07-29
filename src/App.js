@@ -15,10 +15,10 @@ function App() {
       <NavBar/>
       <header className="App-header">
       <Switch>
-      <Route path="/"component={Home} exact/>
-      <Route path="/about" component={About} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/photos" component={Photos} />
+        <Route path="/"component={Home} exact/>
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/photos" component={Photos} />
       <Route component={Error} />
       </Switch>
      

@@ -69,7 +69,7 @@ class Projects extends Component {
     render() {
         return(
             <div className="container">
-            {this.getAllProjects}
+            {this.getAllProjects()}
 
             </div>
           
