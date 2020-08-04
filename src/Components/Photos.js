@@ -1,4 +1,5 @@
 import React from 'react';
+import HamptonDeer from '../Assets/deer.jpg';
 
 function Photos(){
     return(
@@ -7,47 +8,23 @@ function Photos(){
                 Photography!
             </p>
 
-            {/* <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-            <img className="" src="" alt="name of picture" ></img>
-          */}
+            <img className="The East End" src={HamptonDeer} alt="East Hampton Wildlife" ></img>
+
+            {/* <img className="" src={} alt="" ></img>
+
+            <img className="" src={} alt="" ></img>
+
+            <img className="" src={} alt="" ></img>
+
+            <img className="" src={} alt="" ></img>
+
+            <img className="" src={} alt="" ></img>
+
+            <img className="" src={} alt="" ></img>
+
+            <img className="" src={} alt="" ></img> */}
+
+           
             
         </>
     )

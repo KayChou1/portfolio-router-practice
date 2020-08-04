@@ -6,11 +6,10 @@ class Projects extends Component {
       this.state={}
   }
    componentDidMount() {
-       fetch('http://localhost:3030/projects')
+       fetch('http://3.81.70.212:3030/projects')
        .then(res => res.json())
        .then(res =>this.setState({data:res}))
    };
-
 
 
     getAllProjects(){
@@ -39,8 +38,6 @@ class Projects extends Component {
         return(
             <div className="container">
             {this.getAllProjects()}
-           
-
             </div>
           
         )

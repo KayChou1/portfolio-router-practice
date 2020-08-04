@@ -6,7 +6,30 @@ import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import {Route, Switch} from 'react-router-dom';
 import Photos from './Components/Photos';
+// import {Particles,Component} from '/Components/react-particles-js';
 
+
+
+// class App1 extends Component{
+  
+//   render(){
+//       return (
+//           <Particles 
+//               params={{
+//                   particles: {
+//                       shape: {
+//                           type: 'images',
+//                           image: [
+//                               {src: 'path/to/first/image.svg', height: 20, width: 20},
+//                               {src: 'path/to/second/image.jpg', height: 20, width: 20},
+//                           ]
+//                       }
+//                   }
+//               }} />
+//       );
+//   };
+
+// }
 
 
 function App() {
@@ -26,5 +49,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

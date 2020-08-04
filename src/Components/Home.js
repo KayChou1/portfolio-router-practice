@@ -4,7 +4,6 @@ import HeadShotPicture from '../Assets/kaya1.jpg';
 
 
 
-
 function Home(){
     return(
         <>
