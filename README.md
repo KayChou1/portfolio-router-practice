@@ -13,49 +13,30 @@
 ### This website is built using, React, JS, & CSS. It is hosted on an AWS S3 bucket & has access to AWS PSQL Relational Database Server which contains information on my developemt projects.
 
 ## I developed my portfoilio by doinf the follwing
-* [] npx Create-React
-* [] npm install react
-* [] npm install react
-* [] fixed index.js 
-* [] created our switch
-* [] added profile image asset.
-* [] create wireframe
-* [] navbar
-    * [] make navbar stick to top
-    * [] add github link
-    * [] change color
-    * [] change postion of links on navbar
-* [] homepage 
-    * [] home page photo
-    * [] home page text
-    * [] home page name 
-    * [] home page link/buttons
-        * [] projects
-        * [] about me
-        * [] photography
-        * [] LinkedIn
-        * [] Github
-* [] Projects
-    * []
-    * []
-    * []
-    * []
-* [] About Me
-    * []
-    * []
-    * []
-    * []
-* [] Resume
-    * []
-    * []
-    * []
-    * []
-* [] Photos
-    * []
-    * []
-    * []
-    * []
-
+* [✔] npx Create-React
+* [✔] npm install react
+* [✔] npm install react
+* [✔] fixed index.js 
+* [✔] created our switch
+* [✔] added profile image asset.
+* [✔] create wireframe
+* [✔] navbar
+    * [✔] make navbar stick to top
+    * [✔] add github link
+    * [✔] change color
+    * [✔] change postion of links on navbar
+    * [✔] Github] homepage links 
+    * [✔] home page photo
+    * [✔] home page text
+    * [✔] home page name 
+    * [✔] home page link/buttons
+        * [✔] projects
+        * [✔] about me
+        * [✔] photography
+        * [✔] LinkedIn
+        * [✔] Github
+        * [✔] Photography
+        
 
 
 

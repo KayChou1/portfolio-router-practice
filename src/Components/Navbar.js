@@ -2,7 +2,6 @@ import React from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import BrainPic from '../Assets/braingif.gif';
 
-
 function NavBar(){
 
     return (
@@ -28,6 +27,7 @@ function NavBar(){
             </NavDropdown>
             <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="/Photos">Photos</Nav.Link>
+            <Nav.Link href="/Resume">Resume</Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/kayaa/"target="blank">LinkedIn</Nav.Link>
             <Nav.Link href="https://github.com/KayChou1/"target="blank">Github</Nav.Link>
         
