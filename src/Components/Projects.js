@@ -5,8 +5,9 @@ class Projects extends Component {
       super(props)
       this.state={}
   }
-   componentDidMount() {
-       fetch('http://3.81.70.212:3030/projects')
+ 
+   componentDidMount()  {
+       fetch('http://34.237.91.47:3030/projects')
        .then(res => res.json())
        .then(res =>this.setState({data:res}))
    };
@@ -18,12 +19,13 @@ class Projects extends Component {
        console.log(response)
         let allProjects = []; 
         for (let i = 0; i < response.length; i++){
+          console.log(response[i])
           allProjects.push(
-                <div className= "projectCard">
+                <div className= "projectCard" key ={i}>
                 <h1>{response[i].name}</h1>
                 <h1>{response[i].description}</h1>
-                <img src ={response[i].techused} height="100" alt={response[i].name}/>                
-                <p>Tech: {response[i].imgurl}</p>
+                <img src ={response[i].imageurl} height="100" alt={response[i].name}/>                
+                <p> Tech: {response[i].techused}</p>
                 
             
 

@@ -22,12 +22,12 @@ function NavBar(){
                 <NavDropdown.Item href="https://kaychou1.github.io/Space-Kirby/"target="blank">Space Kirby</NavDropdown.Item>
                 <NavDropdown.Item href="https://kaychou1.github.io/calculatorProject/"target="blank">Online Calculator</NavDropdown.Item>
                 <NavDropdown.Item href="https://kaychou1.github.io/IMDB-Movie-Fetch/"target="blank">Movie Fetch</NavDropdown.Item>
-                <NavDropdown.Item href="https://kaychou1.github.io/Lakai-sneaker-API/"target="blank">Sneaker API</NavDropdown.Item>
+                <NavDropdown.Item href="http://lakaisneakerapi.s3-website-us-east-1.amazonaws.com/"target="blank">Sneaker API</NavDropdown.Item>
                 <NavDropdown.Item href="https://kaychou1.github.io/OMDb-API/"target="blank">Movie API</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/About">About</Nav.Link>
-            <Nav.Link href="/Photos">Photos</Nav.Link>
-            <Nav.Link href="/Resume">Resume</Nav.Link>
+            {/* <Nav.Link href="/Photos">Photos</Nav.Link>
+            <Nav.Link href=""target="/Resume">Resume</Nav.Link> */}
             <Nav.Link href="https://www.linkedin.com/in/kayaa/"target="blank">LinkedIn</Nav.Link>
             <Nav.Link href="https://github.com/KayChou1/"target="blank">Github</Nav.Link>
         
